@@ -1,0 +1,15 @@
+{
+    "icon": "temaki-gate",
+    "fields": [
+        "access",
+        "opening_hours"
+    ],
+    "geometry": [
+        "vertex",
+        "line"
+    ],
+    "tags": {
+        "barrier": "gate"
+    },
+    "name": "Gate"
+}

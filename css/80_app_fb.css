@@ -1,0 +1,300 @@
+svg.logo-rapid,
+.icon.rapid {
+    fill: #333;
+    color: #ff26d4;
+}
+
+.assistant.dark svg.logo-rapid,
+svg.logo-rapid.dark,
+.dark .icon.rapid,
+.icon.rapid.dark {
+    fill: #eee;
+    color: #ff26d4;
+}
+
+.assistant .control-col button {
+    background: transparent;
+    color: #808080;
+    height: 100%;
+    width: 40px;
+}
+/* Toolbar button */
+
+button.ai-features-toggle svg.logo-rapid {
+    width: 46px;
+    height: 22px;
+}
+button.ai-features-toggle.layer-off use {
+    fill: rgba(0,0,0,.4);
+    color: rgba(0,0,0,.4);
+}
+
+.fb-road-picker .tooltip .popover-inner {
+    border: 1px solid grey; 
+}
+
+/* Sidebar component */
+
+.fb-road-picker svg.logo-rapid {
+    height: 40px;
+    margin-top: -10px;
+}
+
+.fb-road-picker .header .fb-road-picker-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fb-road-picker .picker-icon-container { 
+    flex: 1 0 60px; 
+    padding: 10px; 
+}
+
+.picker-icon-container svg {
+    width:40px;
+    height:40px;
+}
+
+.fb-road-picker .picker-list-button {
+    display: flex; 
+    flex: 1 1 auto;
+    width: unset; 
+}
+
+.fb-road-picker .picker-list-button.disabled .picker-icon-container, 
+.fb-road-picker .picker-list-button.disabled .label{
+    opacity: .4; 
+}
+
+.fb-road-picker .picker-list-button .label {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    left: 60px;
+    flex-basis: 200px; 
+    color: #e0e0e0; 
+}
+
+.fb-road-picker .tag-reference-button {
+    color: #e0e0e0; 
+}
+
+.fb-road-picker .body {
+    padding: 20px;
+}
+
+.fb-road-picker .body h4 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.fb-road-picker .preset-list-item {
+    margin: 15px 0;
+}
+
+.fb-road-picker .preset-list-item .preset-icon-container svg {
+    height: 34px;
+    width: 34px;
+}
+.fb-road-picker .preset-list-item .preset-icon-container svg use {
+    color: #4c4c4c;
+    fill: none;
+}
+
+.fb-road-picker .preset-list-item .tag-reference-body {
+    padding: 10px;
+}
+.fb-road-picker .preset-list-item .tag-reference-body.shown {
+    display: block;
+}
+.dark .fb-road-picker .preset-list-item .tag-reference-body.shown {
+    color: #a0a0a0; 
+}
+
+.modal-splash.modal-rapid {
+    display: flex; 
+    flex-direction: column; 
+    background: black;
+}
+
+.modal-rapid .fillL{
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+
+.modal-rapid .modal-actions button {
+    text-align: center;
+    background: black; 
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    margin: 20px;
+    border-radius: 5px; 
+    font-size: 14px; 
+    font-weight: 500; 
+    height: 160px; 
+    box-sizing: border-box; 
+}
+
+.modal-rapid .modal-actions button.rapid-login-to-osm {
+    background: white; 
+    color: black; 
+    border: black;
+    height: 3rem;  
+}
+
+.modal-rapid .modal-actions button.rapid-explore {
+    height: 3rem;  
+}
+
+.modal-rapid .modal-section {
+    border: 0px; 
+}
+
+.modal-rapid .modal-section .logo-rapid {
+    fill: white;
+}
+
+.modal-rapid p {
+    font-size: 14px; 
+}
+
+.modal-rapid button.close {
+    align-self: flex-end; 
+    background: black;
+    color: #ff26d4; 
+    position: unset; 
+    height: 40px; 
+}
+
+.rapid-feature.rapid-stack {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.rapid-feature-label {
+    display: flex; 
+    align-items: center; 
+    margin: 16px; 
+}
+
+.rapid-feature-label > svg.icon.logo-rapid {
+    width: 4em;
+    height: 1.3em;
+    margin: -5px;
+}
+
+.rapid-feature-description {
+    font-size: 14px; 
+    margin: 16px; 
+}
+
+.rapid-feature-license {
+    margin: 16px;  
+}
+
+.rapid-feature-license p {
+    font-size: 10px;
+}
+
+.rapid-feature-label-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+}
+
+.modal-section.rapid-checkbox {
+    font-size: 24px;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 5px; 
+    width: 100%; 
+}
+
+.modal-section.rapid-checkbox.disabled {
+    opacity: .5; 
+}
+
+.rapid-feature-checkbox {
+    margin-left: auto; 
+}
+
+.modal-section.rapid-checkbox.section-divider {
+    width: 95%;
+    height: 1px; 
+    background: #ccca;
+    padding: 1px; 
+    align-self: center; 
+}
+
+.rapid-feature-hotkey {
+    margin-left: -5px; 
+    font-size: 14px;
+}
+
+.rapid-feature-label-divider {
+    width: 1px; 
+    height: 20px; 
+    margin-top: 3px; 
+    background: #ccca; 
+}
+
+.rapid-checkbox-label {
+    width: 40px; 
+    height: 40px; 
+    margin-left: auto;
+}
+
+/* since checkboxes can't be styled, we'll 
+hide this one and style something on top of it.  */
+.rapid-checkbox-label input {
+    position: absolute; 
+    opacity: 0; 
+    cursor: pointer; 
+}
+
+.rapid-checkbox-label .rapid-checkbox-custom {
+    height: 36px; 
+    width: 36px; 
+    background-color: transparent;
+    border-radius: 5px; 
+    border: 2px solid #ffffff; 
+}
+
+.rapid-checkbox-label .rapid-checkbox-custom::after { 
+    content: ""; 
+    height: 0px; 
+    width: 0px; 
+    border-radius: 5px; 
+    border: solid transparent; 
+    border-width: 0 6px 6px 0; 
+    transform: scale(0); 
+    opacity: 1; 
+}
+
+.rapid-checkbox-label input:checked ~ .rapid-checkbox-custom::after {
+    content: ""; 
+    display: block;
+    height: 12px; 
+    width: 6px; 
+    padding: 2px;
+    margin-left: 9px; 
+    margin-top: 2px; 
+    border-radius: 0; 
+    border: solid #ff26d4; 
+    background-color: transparent;
+    border-width: 0 4px 4px 0; 
+    transform: rotate(45deg) scale(1); 
+    opacity: 1; 
+}
+
+g.layer-ai-features.hide-rapid-roads path.road, 
+g.layer-ai-features.hide-rapid-roads g.node.road, 
+g.layer-ai-features.hide-rapid-buildings path.building  { 
+    display: none; 
+}

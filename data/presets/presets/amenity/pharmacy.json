@@ -1,0 +1,46 @@
+{
+    "icon": "maki-pharmacy",
+    "fields": [
+        "name",
+        "operator",
+        "address",
+        "building_area",
+        "drive_through",
+        "dispensing"
+    ],
+    "moreFields": [
+        "brand",
+        "email",
+        "fax",
+        "gnis/feature_id",
+        "level",
+        "opening_hours",
+        "payment_multi",
+        "phone",
+        "website",
+        "wheelchair"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "amenity": "pharmacy"
+    },
+    "addTags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+    },
+    "reference": {
+        "key": "amenity",
+        "value": "pharmacy"
+    },
+    "terms": [
+        "apothecary",
+        "drug store",
+        "drugstore",
+        "med*",
+        "prescription"
+    ],
+    "name": "Pharmacy Counter"
+}
