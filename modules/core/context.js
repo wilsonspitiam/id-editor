@@ -105,10 +105,11 @@ export function coreContext() {
     };
 
 
-    function afterLoad(callback) {
-        return function(err, result) {
+    function afterLoad(callback) {   
+        return function(err, result) {  
             if (!err && result && result.data) {
                 history.merge(result.data, result.extent);
+                console.log(history)
             }
             if (callback) {
                 callback(err, result);

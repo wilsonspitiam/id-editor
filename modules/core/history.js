@@ -142,6 +142,8 @@ export function coreHistory(context) {
 
 
         merge: function(entities, extent) {
+
+            console.log(_stack)
             var stack = _stack.map(function(state) { return state.graph; });
             _stack[0].graph.rebase(entities, stack, false);
             _tree.rebase(entities, false);
