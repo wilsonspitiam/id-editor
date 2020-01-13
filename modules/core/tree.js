@@ -17,7 +17,10 @@ export function coreTree(head) {
     }
 
 
-    function updateParents(entity, insertions, memo) {
+    function updateParents(entity, insertions, memo) {       
+
+        console.log(rtree)
+
         head.parentWays(entity).forEach(function(way) {
             if (bboxes[way.id]) {
                 rtree.remove(bboxes[way.id]);
@@ -54,9 +57,10 @@ export function coreTree(head) {
             }
 
             insertions[entity.id] = entity;
+
             updateParents(entity, insertions, {});
         }
-
+        //
         rtree.load(Object.values(insertions).map(entityBBox));
 
         return tree;

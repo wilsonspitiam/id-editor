@@ -339,7 +339,6 @@ function parseXML(xml, callback, options) {
                 _tileCache.seen[uid] = true;
             }
         }
-
         return parser(child, uid);
     }
 }
