@@ -109,7 +109,6 @@ export function coreContext() {
         return function(err, result) {  
             if (!err && result && result.data) {
                 history.merge(result.data, result.extent);
-                console.log(history)
             }
             if (callback) {
                 callback(err, result);
@@ -122,6 +121,7 @@ export function coreContext() {
         var handle = window.requestIdleCallback(function() {
             _deferred.delete(handle);
             if (connection && context.editableDataEnabled()) {
+                console.log(connection.loadTiles)
                 connection.loadTiles(projection, afterLoad(callback));
             }
         });
